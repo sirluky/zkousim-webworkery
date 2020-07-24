@@ -4,7 +4,7 @@ onmessage = function (event) {
   // console.log(event, info)
   if (info === "Makej!") {
     let a = 0;
-    for (let i = 0; i < 100000000; i++) {
+    for (let i = 0; i < 30000000; i++) {
       a += Math.random();
     }
     // console.log(a);
